@@ -104,7 +104,6 @@ framebuffer-stolenmem    = 0x0000C003   (64 MB)
 | CpuTopologyRebuild | 2.0.2 | 大小核拓扑重排 | 启用 |
 | WhateverXe | 0.8.5 | Intel 核显加速主体（min 20.0.0） | 启用 |
 | AirportItlwm | 2.4.0 | Intel 无线，原生 Airport 接口 | 启用 |
-| itlwm | 2.3.0 | Intel 无线（备选方案） | **关闭**（与 AirportItlwm 互斥） |
 | IntelBluetoothFirmware | 2.5.0 | 蓝牙固件上传 | 启用 |
 | IntelBTPatcher | 2.5.0 | 蓝牙补丁 | 启用 |
 | BlueToolFixup | 2.7.3 | 蓝牙框架修补（min 21.0.0） | 启用 |
