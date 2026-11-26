@@ -89,7 +89,7 @@ framebuffer-stolenmem    = 0x0000C003   (64 MB)
 
 ## 内核驱动
 
-`EFI/OC/Kexts` 共 23 个，`Kernel > Add` 共 30 条注入（29 启用，1 关闭）。
+`EFI/OC/Kexts` 共 22 个（不含已移除的 itlwm），`Kernel > Add` 共 30 条注入（29 启用，其中 1 条为空置的 itlwm 记录）。
 
 | Kext | 版本 | 作用 | 状态 |
 | --- | --- | --- | --- |
@@ -160,7 +160,7 @@ EFI/
 └── OC/
     ├── ACPI/          11 个 SSDT
     ├── Drivers/       5 个 UEFI 驱动
-    ├── Kexts/         23 个 kext
+    ├── Kexts/         22 个 kext
     ├── Resources/     界面资源
     ├── Tools/
     ├── OpenCore.efi
